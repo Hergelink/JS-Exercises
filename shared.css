@@ -1,0 +1,238 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(128, 128, 128, 0.176);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 0;
+  color: white;
+}
+
+p {
+  font-weight: 400;
+}
+
+header {
+  height: 8rem;
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  margin: auto 0;
+}
+
+#exercises {
+  height: 180rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exc {
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+  color: white;
+  margin: auto;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* Number Counter App date:05/07/2022 */
+
+#counter input {
+  display: block;
+  margin: 2rem auto;
+  height: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  width: 10rem;
+}
+
+#counter button {
+  margin: auto;
+  height: 4rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  display: inline;
+}
+
+#minus-btn {
+  background-color: red;
+  color: antiquewhite;
+  width: 2rem;
+}
+
+#counter-reset-btn {
+  width: 5rem;
+}
+
+#plus-btn {
+  width: 2rem;
+  background-color: greenyellow;
+}
+
+/* Random Number Generator date:05/07/2022 */
+
+#random-number-input {
+  display: block;
+  margin: 2rem auto;
+  height: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  width: 10rem;
+}
+
+#number-generate-btn-1,
+#number-generate-btn-100 {
+  margin: auto;
+  height: 5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  display: inline;
+  width: 8rem;
+}
+
+/* Random Hex Code Generator date:05/07/2022 */
+
+#random-hex-input {
+  height: 3rem;
+  text-align: center;
+  font-size: 2.5rem;
+  width: 14rem;
+}
+
+#hex-color-sample {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 8px;
+  background-color: white;
+  margin: 1rem auto;
+}
+
+#random-hex-btn {
+  display: block;
+  margin: 1.5rem auto;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+/* Pop-up Window date:06/07/2022 */
+
+#pop-up {
+  display: none;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+#pop-up p {
+  font-weight: bold;
+}
+
+#pop-up ul {
+  list-style: none;
+  padding: 0;
+}
+
+#pop-up li {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Border Radius Slider date:06/07/2022 */
+
+#border-div {
+  width: 8rem;
+  height: 8rem;
+  background-color: yellow;
+  margin: 1rem auto;
+}
+
+.exc label {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+/* Reverse Text date: 07/07/2022 */
+
+#reverse-text-input {
+  width: 70%;
+  height: 10%;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+
+#reverse-text-span {
+  display: block;
+  width: 70%;
+  height: 40%;
+  margin: 1rem auto;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+/* Change Page Background Color date:07/07/2022 */
+
+#background-color-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin: 1rem auto;
+}
+
+.change-background-btn {
+  margin: 0.5rem auto;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 15px;
+}
+
+#background-blue {
+  background-color: rgb(135, 206, 250);
+}
+
+#background-red {
+  background-color: rgb(250, 128, 114);
+}
+
+#background-yellow {
+  background-color: rgb(240, 230, 140);
+}
+
+#background-white {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Carousel date:08/07/2022 */
+
+#carouselExampleControls{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  #exercises {
+    width: 45rem;
+    height: 70%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
